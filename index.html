@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DawnCast — Privacy Policy</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: #0D0D1A;
+            color: #e0e0e0;
+            line-height: 1.7;
+        }
+        h1 { color: #F59E0B; font-size: 28px; }
+        h2 { color: #F59E0B; font-size: 20px; margin-top: 32px; }
+        p { margin: 12px 0; }
+        a { color: #F59E0B; }
+        .updated { color: #888; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <h1>DawnCast — Privacy Policy</h1>
+    <p class="updated">Last updated: July 7, 2026</p>
+
+    <h2>Overview</h2>
+    <p>DawnCast ("the app", "we", "us") is a podcast alarm clock for Android. We do not require you to create an account, and we do not collect your name, email address, contacts, or location. This policy explains the limited data the app does send over the internet and the third-party services it relies on.</p>
+
+    <h2>Data Stored on Your Device</h2>
+    <p>Your alarms, podcast selections, episode choices, and sleep timer history are stored locally on your device using Android's DataStore. This data is not backed up to any cloud service by the app, and uninstalling the app deletes it.</p>
+
+    <h2>Data Sent Over the Internet</h2>
+    <p>To provide its features, the app sends the following to the services listed below. None of it is linked to a personal account or your real-world identity.</p>
+    <p>• <strong>Podcast search</strong> — When you search for a podcast or episode, your search terms are sent to the Apple iTunes Search API and to our own podcast search service. Our service in turn queries third-party podcast directories — PodcastIndex.org, with a fallback to fyyd.de — to return results.</p>
+    <p>• <strong>Ad detection</strong> — When you select an episode, the app sends details of that episode (podcast name, episode title, episode audio URL, episode description, and your country code) to our ad-detection service. The service returns the locations of advertisement segments so the app can skip them. Audio is never uploaded from your device; on-device skipping is performed using audio "fingerprints" supplied by the service. To generate those results, our service fetches and analyses the episode on our servers with the help of the third-party processors named under "Third-Party Services and Sub-processors" below.</p>
+    <p>• <strong>Podcast content</strong> — Podcast episode information (RSS feeds), audio, and artwork are retrieved directly from the podcast publisher's servers.</p>
+
+    <h2>Subscriptions and Payments</h2>
+    <p>DawnCast Pro is an optional paid subscription. Purchases are processed by <strong>Google Play Billing</strong>; we never receive or store your payment card details. We use <strong>RevenueCat</strong> to manage subscription entitlements. RevenueCat processes your purchase history, an anonymous app-generated identifier, and basic device and technical information (such as device model, operating system version, country, and IP address) in order to validate and restore your subscription. See RevenueCat's privacy policy at <a href="https://www.revenuecat.com/privacy/">revenuecat.com/privacy</a>.</p>
+
+    <h2>Third-Party Services and Sub-processors</h2>
+    <p>We share the minimum data necessary with the following providers:</p>
+    <p>• <strong>Apple iTunes Search API</strong>, <strong>PodcastIndex.org</strong>, and <strong>fyyd.de</strong> — receive your search terms to return podcast results. No account is required.</p>
+    <p>• <strong>DawnCast backend services</strong> — provide podcast search and advertisement detection.</p>
+    <p>To detect advertisements, our service shares episode information (such as titles, descriptions, transcripts, and audio) with the following processors:</p>
+    <p>• <strong>OpenAI</strong> — to transcribe episode audio and analyse text to identify advertisement boundaries.</p>
+    <p>• <strong>Google / YouTube</strong> — to locate the matching video and retrieve transcripts, using the podcast and episode titles.</p>
+    <p>• <strong>Supadata</strong> — a fallback transcript provider.</p>
+    <p>• <strong>Webshare</strong> — a proxy provider through which episode audio is fetched.</p>
+    <p>Other services:</p>
+    <p>• <strong>Google Play Billing</strong> and <strong>RevenueCat</strong> — process and manage subscriptions.</p>
+    <p>• <strong>Podcast publishers</strong> — audio and feeds are streamed directly from their servers.</p>
+
+    <h2>Data Retention</h2>
+    <p>We do not maintain user accounts or profiles. Requests to our services are used only to fulfil the request (returning search results or advertisement locations) and are not used to build a profile of you. Subscription records held by RevenueCat and Google are retained for as long as needed to provide and support your subscription.</p>
+
+    <h2>Permissions</h2>
+    <p>The app requests the following permissions, all necessary for core functionality:</p>
+    <p>• <strong>Schedule / Use Exact Alarms</strong> — to fire alarms at the correct time</p>
+    <p>• <strong>Notifications & Full-Screen Intent</strong> — to show and ring alarms</p>
+    <p>• <strong>Internet</strong> — to search for and stream podcasts</p>
+    <p>• <strong>Wake Lock</strong> — to keep the device awake when an alarm fires</p>
+    <p>• <strong>Foreground Service</strong> — to play audio reliably in the background</p>
+    <p>• <strong>Boot Completed</strong> — to reschedule alarms after a phone restart</p>
+    <p>• <strong>Vibrate</strong> — for alarm vibration</p>
+
+    <h2>Children's Privacy</h2>
+    <p>DawnCast is not directed at children under 13. The app does not knowingly collect any information from children.</p>
+
+    <h2>Changes to This Policy</h2>
+    <p>We may update this privacy policy from time to time. Any changes will be reflected on this page with an updated date.</p>
+
+    <h2>Contact</h2>
+    <p>If you have questions about this privacy policy, please contact us at dawncastapp@gmail.com.</p>
+</body>
+</html>
